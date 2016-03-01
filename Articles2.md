@@ -1,4 +1,4 @@
-####Read up on the Boston Matrix
+####Read up on the Boston Matrix[5]
 Boston Matrix helps the company allocate resources and is used as an analytical tool in brand marketing, product management, strategic management, and portfolio analysis. Analysis of market performance by firms using its principles has recently called its usefulness into question.
 
 To use the chart, analysts plot a scatter graph to rank the (or products) on the basis of their relative market shares and growth rates.
@@ -12,6 +12,7 @@ Question marks are business operating in a high market growth, but having a low 
 Stars are units with a high market share in a fast-growing industry. They are graduated question marks with a market or niche leading trajectory. Stars require high funding to fight competitions and maintain a growth rate. When industry growth slows, if they remain a niche leader or are amongst market leaders they have been able to maintain their category leadership stars become cash cows, else they become dogs due to low relative market share.
 
 As a particular industry matures and its growth slows, all business units become either cash cows or dogs. The natural cycle for most business units is that they start as question marks, then turn into stars. Eventually the market stops growing thus the business unit becomes a cash cow. At the end of the cycle the cash cow turns into a dog.
+
 #####	Weerd & Brinkkemper “Towards a reference framework for software product management” 
 
 This paper presents the reference framework for software product management. In the basic framework structure, the basic structure of the framework is based on the object. At the same time, it is based on the set of stakeholders defined in the scope of work. And then , there are some generic internal and external stakeholders. In next section, it explains the four process areas about the reference framework for software product management. Portfolio includes the decision making of existing products, through analysis the trends of the market, and product development strategy to introduce new products, decide the lifecycle of the product, and conduct partnerships and contracts. Roadmapping is a metaphor for planning and portraying the use of scientific and technological resources, elements and their structural relationships over a period of time. It is used for business oriented long-term planning and technology forecasting. Requirements management includes the activities of collection, define, revising and organizing the incoming requirements from various stakeholders. Requirements management starts from collect the requirements from the company and external stakeholders. Release planning starts from the priorities of the product requirements.  After the prioritisation, the selected requirements will be implemented in the next release.  
@@ -20,9 +21,9 @@ This paper presents the reference framework for software product management. In 
 
 Scrum become very popular in software development team, but is doesn’t describe how large project can scale or how manager in program level or portfolio level will handle their requirements together with agile teams[1]. Dean Leffingwell created the Scale Agile Framework(SAFe) to apply agile methodologies to the whole companies. SAFe is based on Lean and Agile principles[2]. 
 
-SAFe proposes three levels[1][2][3]: 
+SAFe proposes three levels[1][2][3][4]: 
 
-Portfolio Level: PPM is the core part in Strategy, Investment Funding, Program Management and Governance.  Epics define large development initiatives that encapsulate the new development necessary to realise the benefits of the investment themes which drive the budget allocations[2]. Portfolio philosophy is the centralised strategy with local execution.   
+Portfolio Level[4]: PPM is the core part in Strategy, Investment Funding, Program Management and Governance.  Epics define large development initiatives that encapsulate the new development necessary to realise the benefits of the investment themes which drive the budget allocations[2]. Portfolio philosophy is the centralised strategy with local execution.   
 
 Program Level: SAFe defines an Agile Release Train(ART) to program. The ART is the main instrument for value delivery at the program level which delivers a value stream for the organization[2]. 5 and 10 teams work together and synchronise their release boundaries and iteration boundaries[2][3].  Every 5 iterations, a train delivers a Potentially Shippable Increment(PSI) and held a demo, inspect and adapt seminars and plan for the next PSI[2]. In this level, new roles are defined. In the IT/PMI environments, the program manager may have more than one roles. If they have domain expertise, they can fill the product manager role. The product manager who defines and priorities the program backlog has content authority at this level. SAFe defines an artifact hierarchy of Epics-Features-User Stories. The program backlog is features prioritised list. Features can generate at the Program level or derive from Epics defined at the Portfolio level[2]. The system architect has design authority at this level. He work with teams day by day to ensure the non-functional requirements are met. He also works with the enterprise architect to ensure there are enough architectural runway to support the upcoming user and business needs at the Portfolio level[2].  The UX Designers provide UI design, UX guidelines and design elements for teams. The Release Train Engineering is the Uber-ScrumMaster. The Release Management Team is a cross-functional team that approves frequent releases of quality solution to customers[2].
 
@@ -38,6 +39,7 @@ Program and Team Level are work together on the same value stream.
 [3] “Program Level – Scaled Agile Framework.” [Online]. Available: http://www.scaledagileframework.com/program-level/.
 
 [4] “Portfolio Level – Scaled Agile Framework.” [Online]. Available: http://www.scaledagileframework.com/portfolio-level/.
+[5]“Growth–share matrix,” Wikipedia, the free encyclopedia. 18-Dec-2015.
 
 #####–  Wnuk et al. “Are You Biting Off More Than You Can Chew? A Case Study on Causes and Effects of Overscoping in Large-Scale Software Engineering”  
 #####		–  Wnuk et al. “Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering”  
