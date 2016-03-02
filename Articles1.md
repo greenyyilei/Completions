@@ -1,7 +1,6 @@
-####– What is market-driven requirements engineering? 
-Market driven requirements engineering (MDRE) come from internal sources like developers, marketing groups, sales teams, support groups, bug reports, as well as from external sources such as different users, customers groups from different and multiple market segments, and competitors (through e.g. surveys, interviews, focus groups, and competitor analysis) [5]. 
+
 ####Read up on GAP / CVA / IVA Analysis!
-#####GAP Analysis
+#####GAP Analysis[3][4][5]
 A gap analysis is a method that assessing the difference between actual performance with the potential or desired performance. Gap refers to a needs analysis, needs assessment or need-gap analysis. In software development, gap analysis can show which requirements are missing, which are delete and which are still need to be development.
 
 
@@ -24,8 +23,8 @@ Establish the priorities of the requirements.
 Disadvantage:
 Time and cost are two major disadvantages of the gap analysis. GAP analysis will also influence the morale of the staff. It will result in apprehension or suspicion.
 
-#####CVA analysis
-CVA is similar to GAP but includes the perspective of using competitor products in the analysis. CVA can be used to measure selection quality post-release. 
+#####CVA analysis[3]
+CVA is similar to GAP but includes the perspective of using competitor products in the analysis. CVA can be used to verify the perceived customer value and measure the selection quality post-release.  
 #####IVA analysis
 Internal Value Analysis is a technique to measure whether a product is in line with the product strategies, taking limit resources and other products into account[1][2]. IVA analysis considers the time, money, risk, and knowledge, the complementing data from GAP and CVA, requirements prioritization, dependency mapping and cost estimate. 
 All the three tools help the company choose between products and keep a balance between high risk-high reward and low risk-low reward development. 
@@ -33,8 +32,14 @@ All the three tools help the company choose between products and keep a balance 
 #####Reference
 [1] S.A. Ross, R. Westerfield, B.D. Jordan, Essentials of Corporate Finance, Third ed., McGraw-Hill, Boston, 2001. 
 
-[2] .H. Mintzberg, B.W. Ahlstrand, J. Lampel, Strategy Safari: A Guided Tour through the Wilds of Strategic Management, Free Press, New York, NY, 1998.  
-		 
+[2] .H. Mintzberg, B.W. Ahlstrand, J. Lampel, Strategy Safari: A Guided Tour through the Wilds of Strategic Management, Free Press, New York, NY, 1998. 
+
+[3] A. Gomes and A. Pettersson, Market-Driven Requirements Engineering Process Model – MDREPM. 2007.
+
+[4] K. Wnuk, “Understanding and Supporting Large-Scale Requirements Management.”
+
+[5] K. Wnuk, B. Regnell, and L. Karlsson, “What Happened to Our Features? Visualization and Understanding of Scope Change Dynamics in a Large-Scale Industrial Setting,” in Requirements Engineering Conference, 2009. RE ’09. 17th IEEE International, 2009, pp. 89–98.
+
 ####Gorschek & Wohlin “Requirements Abstraction Model” 
 RAM is a tool to offer product manager handle and work with requirements on multiple levels of abstraction in a continuous product-center requirement engineering effort. 
 RAM has three steps:
