@@ -17,6 +17,62 @@ As a particular industry matures and its growth slows, all business units become
 
 This paper presents the reference framework for software product management. In the basic framework structure, the basic structure of the framework is based on the object. At the same time, it is based on the set of stakeholders defined in the scope of work. And then , there are some generic internal and external stakeholders. In next section, it explains the four process areas about the reference framework for software product management. Portfolio includes the decision making of existing products, through analysis the trends of the market, and product development strategy to introduce new products, decide the lifecycle of the product, and conduct partnerships and contracts. Roadmapping is a metaphor for planning and portraying the use of scientific and technological resources, elements and their structural relationships over a period of time. It is used for business oriented long-term planning and technology forecasting. Requirements management includes the activities of collection, define, revising and organizing the incoming requirements from various stakeholders. Requirements management starts from collect the requirements from the company and external stakeholders. Release planning starts from the priorities of the product requirements.  After the prioritisation, the selected requirements will be implemented in the next release.  
 #####		–  Regnell & Brinkkemper “Market-Driven Requirements Engineering for Software Products” (Chapter 13 in Engineering and Management of Software Requirements)  
+This paper is mainly described the context and concepts of MDRE, and briefly compare it with the customer-specific development. 
+
+Market-driven development is different from the bespoke development that the product is specific to the needs and wishes of one customer. MDRE refers to the situation where the product is offered to an open market with many customers, the development costs are divided among many buyers and the potential profit is rewarded to the producer. MDRE covers the classical RE activities like elicitation, specification and validation. It also covers the release management and market analysis which is specific to MDRE. The following are some differences between MDRE and bespoke development. 
+
+MDRE:
+
+1. The main goal of MDRE is to deliver the right product at the right time. 
+
+2. In the MDRE, whether the product is success or not is decided by sales, market share, and product reviews. 
+
+3. There is often one major release of MDRE and the product is continuous evolution rather than maintenance. 
+
+4. In the NDRE, much effort is devoted to prioritization, cost estimation and release planning. 
+
+5. Case validation in the MDRE is often delayed until a late stage of the development. 
+
+Bespoke:
+
+1. The main goal of the bespoke development is to realisation of a contract and compliance to a requirements specification. 
+
+2. Int the bespoke products, whether the product is success or not is determined by customer satisfaction and user acceptance. 
+
+3. The lifecycle of the bespoke project is often divided into development first and then maintenance. 
+
+4. In the bespoke development, much effort is devoted to negotiation and conflict resolution. 
+
+5. In the bespoke development, validation is continuous doing through the contacts between the customer and the developers. 
+
+There are some challenges in MDRE: find a good balance between technology-driven and need-driven requirements; communication and collaboration between marketing and development; requirements dependencies make release planning difficult; cost-value estimation. The key issue of MDRE is to continuously improve in managing these challenges to make it ahead of the competitors. 
+
+The MDRE process quality is very important in requirements selection. The alfa/beta model of MDRE selection quality is used to capturing decision quality. An alfa requirement has a high inherent quality that it should be selected and a beta requirement has low inherent quality that should be rejected. It is not easy to find and select alfa requirements and rejecting beta requirements and it is difficult to know whether a requirement is an alfa or beta requirements as the cost-benefit trade-off is very difficult.  
+
+There are two typical ingredients in MDRE data management. The requirements state model is used for requirements refinement progress tracking. There are two modes in the requirement state model. 
+
+In the continuous mode, product manager receive and register all kinds of requirements. It includes the following steps:
+
+Candidate: Each received requirements will have the status “Candidate”.
+
+Approved: The requirements with status Candidate will be reviewed at regular time intervals. The requirements that are being accepted get the status “Approved”. This process is very difficult as it is hard to confirm the quality of the requirements. 
+
+Specified: The pervious description of the requirements is almost not very clearly and detail for planning and developing, then a more suitable and detailed specification is linked to the requirements. 
+
+Discarded:  The requirements being rejected get the statusDiscarded. The reason report will be send to the submitter. The discarded requirements are not deleted from the database to enable future analyses. 
+
+In release mode, the release scope is frozen in order to manage the release development project. It includes the following steps:
+
+Planned: The development team will consider about release date and human resources and maximum the number of planned requirements. All the selected requirements get the status Planned and are input for the design and coding process.
+
+Developed: Development includes design, coding, unit tests and production of collateral materials. The requirements will get status Developed when all the activities are successfully completed. 
+
+Verified: Software testing is used to verify the quality of project before it released. 
+
+Released: The requirements will get the status Released when all the activities are completed and the submitter will get a notification. 
+
+The requirements repository is used to store the relevant attributes of candidate requirements. Smaller project will need a simple spreadsheet and large-scale project will need requirements management tool due to the volume of requirements. 
+
 #####		–  D. Leffingwell “Scaled Agile Framework” (Note, there is no good article on this, but his webpage provides some help). 
 
 Scrum become very popular in software development team, but is doesn’t describe how large project can scale or how manager in program level or portfolio level will handle their requirements together with agile teams[1]. Dean Leffingwell created the Scale Agile Framework(SAFe) to apply agile methodologies to the whole companies. SAFe is based on Lean and Agile principles[2]. 
@@ -42,7 +98,11 @@ Program and Team Level are work together on the same value stream.
 [5]“Growth–share matrix,” Wikipedia, the free encyclopedia. 18-Dec-2015.
 
 #####–  Wnuk et al. “Are You Biting Off More Than You Can Chew? A Case Study on Causes and Effects of Overscoping in Large-Scale Software Engineering”  
+
 #####		–  Wnuk et al. “Factors Affecting Decision Outcome and Lead-time in Large-Scale Requirements Engineering”  
+
+This paper use case study and survey to investigate the factors affecting decision outcome and lead-time in LSRE. The decision lead-time is the time required to analyse the impact of a decision under this context. The decision outcome is a specific outcome of the decision process called acceptance or rejection under this context. To research on this area, there are three research questions and six hypothesis. After case study and survey among 50 practitioners, they conclude some results. When the decision affect more products, the lead-time to make a decision will increases.  Decision maker should know more complex decisions may take more time. According to the statistical analysis of the decision log, it is more likely to accept the issues of changing requests by important customers. At the same time, the lead-time to accept a decision is shorter than to reject a decision. The number of products affected by a decision increase the decision lead-time. Due to more complex decision take more time, it is wise to decrease their complexity for faster decision. 
+
 #####		–  P. Carlshamre, K. Sandahl, M. Lindvall, B. Regnell, J. Natt och Dag, “An industrial survey of requirements interdependencies in software product release planning”, in Proceedings of the fifth IEEE Interna- tional Symposium on Requirements Engineering, 2001.  
 
 This paper provide an industrial survey in five companies and analysis their requirements’ interdependencies. We found that only about 20% of the requirements are singular. And 20% of the requirements are involved in 75% of all interdependencies. Customer-Specific bespoke product is tend to more functionality-related dependencies, while market-driven product is tend to value-related dependencies. 
